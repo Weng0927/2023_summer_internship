@@ -3,7 +3,7 @@ export default function HomePage() {
         <div>
             <h1>Next.js Test</h1>
             <p>
-                This is a sample project to demonstrate how to use MaxGraph in a Next.js
+                This is a sample project to demonstrate how to use Antv/X6 and MaxGraph in a Next.js
                 project.
             </p>
         </div>
