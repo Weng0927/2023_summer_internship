@@ -1,40 +1,11 @@
 'use client'
 import React from 'react'
-import { useEffect, useRef } from 'react'
-import { Graph} from '@antv/x6'
-
 
 function HomePage() {
-    const canvas = useRef<HTMLDivElement | null>(null)
-
-    useEffect(() => {
-        const graph = new Graph({
-            container: document.getElementById('canvas'),
-            width: 400,
-            height: 300,
-        })
-
-        const source = graph.addNode({
-          x: 300,
-          y: 40,
-          width: 80,
-          height: 40,
-          label: 'Hello',
-        })
-
-        const target = graph.addNode({
-            x: 420,
-            y: 180,
-            width: 80,
-            height: 40,
-            label: 'World',
-        })
-
-        graph.addEdge({source, target})
-    }, [])
-
     return (
-        <div ref={canvas} id='canvas'></div>
+        <div>
+            <h1>Next.js Home Page</h1>
+        </div>
     )
 }
 
