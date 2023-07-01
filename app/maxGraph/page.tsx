@@ -25,6 +25,10 @@ export default function MaxGraphHome() {
   }, [])
 
   return (
-      <div ref={graphContainer} id='graph-container'></div>
+      <div>
+        <h1>MaxGraph Home</h1>
+        <div ref={graphContainer} id='graph-container'></div>
+      </div>
+
   )
 }
